@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>three</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .text-1,
+      .text-2 {
+        color: #fff;
+        position: fixed;
+        font-size: 48px;
+        opacity: 0;
+        transition: .5s;
+      }
+
+      .text-1 {
+        top: 48%;
+        right: 40%;
+      }
+
+      .text-2 {
+        top: 20%;
+        left: 10%
+      }
+
+      .show {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="text-1">Oh, pao sam.</div>
+      <div class="text-2">Nisi pazio..</div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
